@@ -1,0 +1,11 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+  name: chart
+upstream:
+  type: git
+  git:
+    commit: deadf87be8deefc43497241a046f1a37f23c6851
+    repo: https://github.com/stefanprodan/podinfo
+    directory: charts/podinfo
+    ref: 5.2.1

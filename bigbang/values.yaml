@@ -1,0 +1,44 @@
+podinfo:
+  enabled: true
+  flux: {}
+  # git:
+  #   repo: https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/podinfo
+  #   tag:  5.2.1-bb.0
+  #   path: chart
+  #   path: chart  
+
+# Network Policies
+networkPolicies:
+  enabled: false
+
+# Istio
+istiooperator:
+  enabled: false
+istio:
+  enabled: false
+
+# Gatekeeper
+gatekeeper:
+  enabled: false
+clusterAuditor:
+  enabled: false
+
+# Logging
+eckoperator:
+  enabled: false
+logging:
+  enabled: false
+fluentbit:
+  enabled: false
+
+# Monitoring
+monitoring:
+  enabled: false
+
+# Other Tools
+jaeger:
+  enabled: false
+kiali:
+  enabled: false
+twistlock:
+  enabled: false  
