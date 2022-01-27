@@ -1,6 +1,0 @@
-diff /tmp/kpt-723284409/local-5.2.1-deadf87/Chart.yaml /tmp/kpt-723284409/remote-5.2.1-deadf87/Chart.yaml
-2c2
-< version: 5.2.1-bb.0
----
-> version: 5.2.1
-Common subdirectories: /tmp/kpt-723284409/local-5.2.1-deadf87/templates and /tmp/kpt-723284409/remote-5.2.1-deadf87/templates

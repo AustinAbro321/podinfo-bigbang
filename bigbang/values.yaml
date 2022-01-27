@@ -1,21 +1,23 @@
 podinfo:
   enabled: true
+  git:
+    repo: https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/podinfo
+    tag:  6.0.0-bb.0
+    path: chart
   flux: {}
-  # git:
-  #   repo: https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/podinfo
-  #   tag:  5.2.1-bb.0
-  #   path: chart
-  #   path: chart  
+  ingress:
+    gateway: ""
+
 
 # Network Policies
 networkPolicies:
   enabled: false
 
-# Istio
+# Update existing values
 istiooperator:
-  enabled: false
+  enabled: true
 istio:
-  enabled: false
+  enabled: true
 
 # Gatekeeper
 gatekeeper:

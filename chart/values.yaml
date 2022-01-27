@@ -1,5 +1,16 @@
 # Default values for podinfo.
 
+# Big Bang Values
+domain: bigbang.dev
+istio:
+  enabled: false
+  podinfo:
+    enabled: true
+    gateways:
+    - istio-system/main
+    hosts:
+    - podinfo.{{ .Values.domain }}
+
 replicaCount: 1
 logLevel: info
 host: #0.0.0.0
