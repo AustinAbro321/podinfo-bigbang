@@ -15,9 +15,9 @@ networkPolicies:
 
 # Update existing values
 istiooperator:
-  enabled: false
+  enabled: true
 istio:
-  enabled: false
+  enabled: true
 
 # Gatekeeper
 gatekeeper:
