@@ -1,5 +1,5 @@
 podinfo:
   # The Git location of the package Helm chart
   git:
-    repo: https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/podinfo
-    branch: master
+    repo: https://github.com/AustinAbro321/podinfo-bigbang/adfa
+    branch: main
